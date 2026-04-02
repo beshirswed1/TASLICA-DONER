@@ -87,7 +87,7 @@ export default function Footer() {
       <div className="bg-gray-950 py-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-xs text-gray-500">
-            &copy; {currentYear} Lezzet Menüsü. Tüm hakları saklıdır.
+            &copy; {currentYear} TAŞLICA DÖNER. Tüm hakları saklıdır.
           </p>
           
           {/* رابط الإدارة الخفي والمحترم */}
