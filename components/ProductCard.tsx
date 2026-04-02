@@ -11,8 +11,9 @@ export interface Product {
   name: string;
   price: number;
   category: string;
-  description?: string;
-  image_url?: string;
+  description: string;
+  image_url: string | null;
+  is_visible: boolean;
 }
 
 const ProductCard = memo(({ product }: { product: Product }) => {
