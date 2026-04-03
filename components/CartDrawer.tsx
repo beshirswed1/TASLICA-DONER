@@ -14,15 +14,15 @@ export default function CartDrawer({ isOpen, onClose }: { isOpen: boolean, onClo
     
     // تنسيق الفاتورة لرسالة الواتساب
     let message = "🧾 *YENİ SİPARİŞ FİŞİ*\n";
-    message += "------------------------\n\n";
+    message += "---------------------------------------------------------------------\n\n";
     
     items.forEach(item => {
-      message += `🔸 ${item.name}\n`;
+      message += `. ${item.name}\n`;
       message += `   ${item.quantity} x ${item.price} ₺ = ${item.price * item.quantity} ₺\n`;
     });
     
     message += "\n------------------------\n";
-    message += `💰 *GENEL TOPLAM: ${total} ₺*\n`;
+    message += ` *GENEL TOPLAM: ${total} ₺*\n`;
     message += "------------------------\n";
     message += "Lütfen siparişimi onaylayın. Teşekkürler!";
     
