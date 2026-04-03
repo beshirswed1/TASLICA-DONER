@@ -26,7 +26,7 @@ export default function CartDrawer({ isOpen, onClose }: { isOpen: boolean, onClo
     message += "------------------------\n";
     message += "Lütfen siparişimi onaylayın. Teşekkürler!";
     
-    const whatsappUrl = `https://wa.me/905000000000?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/+905453155933?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
     dispatch(clearCart());
     onClose();
